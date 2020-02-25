@@ -11,6 +11,7 @@ public class GitTestApplicationTests {
 
     @Test
     public void contextLoads() {
+        system.out.println("github上写的");
     }
 
 }
