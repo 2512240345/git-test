@@ -11,7 +11,13 @@ public class GitTestApplicationTests {
 
     @Test
     public void contextLoads() {
-        system.out.println("github上写的");
+        System.out.println("github上写的");
+
+        String[] a = {"1","2","3"};
+        for (int i = 0; i < a.length; i++) {
+            String s = a[i];
+            System.out.println(s);
+        }
     }
 
 }
